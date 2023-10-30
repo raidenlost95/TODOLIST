@@ -1,0 +1,84 @@
+<?php
+echo '<!DOCTYPE html>';
+echo '<html lang="en">';
+echo ' <head>';
+echo '<meta charset="UTF-8">';
+echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+echo '<title>Document</title>';
+echo '<link rel="stylesheet" href="styles.css">';
+echo '</head>';
+echo '<body>';
+echo '<header>';
+echo '<h2 class="logo">logo</h2> ';
+echo '<nav class="navigation">';
+echo '<a href="#">Home</a>';
+echo '<a href="#">About</a>';
+echo '<a href="#">Services</a>';
+echo '<a href="#">Contact</a>';
+echo '<button class="btnLogin-popup">Login</button>';
+echo '</nav>';
+echo '</header>';
+echo '<div class="wrapper">';
+echo '<span class="icon-close">';
+echo '<ion-icon name="close"></ion-icon>';
+echo '</span>';
+echo '<div class="form-box login">';
+echo '<h2>Login</h2>';
+echo '<form action="#">';
+echo '<div class="input-box">';
+echo '<span class="icon"><ion-icon name="mail"></ion-icon></span>';
+echo '<input type="email" require>';
+echo ' <label >Email</label>';
+echo ' </div>';
+echo '<div class="input-box">';
+echo '<span class="icon"><ion-icon name="lock"></ion-icon> </span>';
+echo '<input type="password" require>';
+echo '<label >Password</label>';
+echo '</div>';
+echo '<div class="remember-forgot"><label ><input type="checkbox">Remember me</label> <a href="#">Forgot Password?</a></div>';
+echo '<button type="submit" class="btn">login</button>';
+echo '<div class="login-register">';
+echo '<p>Don t an account?<a href="#" class="register-link">Register</a></p>';
+echo '</div>';
+echo '</form>';
+echo '</div>';
+echo '<!-- este es el segunfo div-->';
+echo '<div class="form-box register">';
+echo '<h2>Registration</h2>';
+echo '<form action="#">';
+echo '<div class="input-box">';
+echo '<span class="icon"><ion-icon name="person"></ion-icon></span>';
+echo '<input type="text" require>';
+echo '<label >Username</label>';
+echo '</div>';
+echo '<div class="input-box">';
+echo '<span class="icon"><ion-icon name="mail"></ion-icon></span>';
+echo '<input type="email" require>';
+echo '<label >Email</label>';
+echo '</div>';
+echo '<div class="input-box">';
+echo '<span class="icon"><ion-icon name="lock"></ion-icon> </span>';
+echo '<input type="password" require>';
+echo '<label >Password</label>';
+echo '</div>';
+echo '<div class="remember-forgot">';
+echo '<label ><input type="checkbox">';
+echo 'agree to the terms & conditions</label>';
+echo '</div>';
+echo ' <button type="submit" class="btn">register</button>';
+echo '<div class="login-register">';
+echo '<p>Already have  an account?<a href="#" class="login-link">login</a></p>';
+echo '</div>';
+echo '</form>';
+echo '</div>';
+echo '</div>';
+echo '<script src="script.js" ></script>';
+echo '<script  src = "https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js" > </script>';
+echo '</body>';
+echo '</html>';
+?>                 
+
+
+
+
+
