@@ -1,0 +1,11 @@
+Para ejecutar el proyecto debemos tener instalado XAMPP en la PC. 
+Lo siguiente es iniciar Apache y MySQL en XAMPP.
+
+-------
+Para ejecutar la Base de Datos del proyecto abrimos el navegador
+e ingresamos la direccion URL: "http://localhost/phpmyadmin/"
+
+- Nos ubicamos en la opcion de "Nueva" encima de los nombres de las 
+  bases de datos, y procedemos a crear la base de datos que 
+  denominaremos "tms_db" e importaremos la base de datos ubicada en 
+  la carpeta database.
