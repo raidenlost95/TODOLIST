@@ -8,4 +8,4 @@ e ingresamos la direccion URL: "http://localhost/phpmyadmin/"
 - Nos ubicamos en la opcion de "Nueva" encima de los nombres de las 
   bases de datos, y procedemos a crear la base de datos que 
   denominaremos "tms_db" e importaremos la base de datos ubicada en 
-  la carpeta database.
+  la carpeta database que se encuentra dentro de la carpeta TODOLIST.
